@@ -3,7 +3,7 @@ import passport from 'passport' //Manejador de las estrategias
 import GithubStrategy from 'passport-github2'
 import jwt from 'passport-jwt'
 import { createHash, validatePassword } from '../utils/bcrypt.js'
-import { userModel } from '../models/users.model.js'
+import userModel from '../models/users.model.js'
 
 
 //Defino la estrategia a utilizar
